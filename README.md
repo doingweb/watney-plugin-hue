@@ -1,6 +1,8 @@
 Watney Hue Plugin
 =================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/doingweb/watney-plugin-hue.svg)](https://greenkeeper.io/)
+
 A Watney plugin for the Philips Hue lighting system.
 
 Currently only for plain white bulbs, because that's all I have :)
