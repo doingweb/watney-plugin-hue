@@ -1,6 +1,7 @@
 Watney Hue Plugin
 =================
 
+[![Build Status](https://travis-ci.org/doingweb/watney-plugin-hue.svg?branch=master)](https://travis-ci.org/doingweb/watney-plugin-hue)
 [![Greenkeeper badge](https://badges.greenkeeper.io/doingweb/watney-plugin-hue.svg)](https://greenkeeper.io/)
 
 A Watney plugin for the Philips Hue lighting system.
