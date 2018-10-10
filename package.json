@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/doingweb/watney-plugin-hue#readme",
   "dependencies": {
-    "delay": "^4.0.0",
+    "delay": "^4.1.0",
     "inquirer": "^6.1.0",
     "node-hue-api": "^2.4.2",
     "watney-app": "^1.1.0"
