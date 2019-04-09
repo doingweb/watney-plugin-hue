@@ -4,7 +4,7 @@ const {
   LIGHT_STATE_CHANGE_SUCCESS,
   LIGHT_STATE_CHANGE_ERROR
 } = require('./events');
-const Light = require('./Light');
+const Light = require('./HueLight');
 
 /** @typedef {{ on: boolean, bri: number }} LightState */
 
