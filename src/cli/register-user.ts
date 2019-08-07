@@ -71,7 +71,11 @@ export async function registerUserCli(app: WatneyApp) {
     if (bridges.length === 1) {
       const [bridge] = bridges;
 
-      console.log(`Found bridge "${bridge.name}" at ${bridge.ipaddress}.`);
+      console.log(
+        `Found bridge${bridge.name ? ' "' + bridge.name + '"' : ''} at ${
+          bridge.ipaddress
+        }.`
+      );
 
       return bridge.ipaddress;
     }
