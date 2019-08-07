@@ -172,5 +172,11 @@ View and delete bridge users (including extra ones you may have accidentally [ma
 TODO
 ----
 
-* Refine the API around brightness and transition time.
-* Color bulbs?
+- [ ] Fix [security issues](https://github.com/doingweb/watney-plugin-hue/network/alerts)
+- [ ] Refine the API around brightness and transition time.
+- [ ] Add `getLightGroups()` to the API.
+- [ ] Import CliFunction from watney-app?
+- [ ] Remove awaitableWrap()?
+- [ ] Remove `timestamp` from `HueLight`?
+- [ ] Update readme.
+- [ ] Color bulbs?
