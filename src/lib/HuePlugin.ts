@@ -44,7 +44,7 @@ export class HuePlugin extends WatneyPluginBase implements HuePluginApi {
   }
 
   public getLights(...names: string[]) {
-    if (!names) {
+    if (!names.length) {
       return Array.from(this.lights.values()).filter(light => light);
     }
 
