@@ -52,10 +52,6 @@ export async function manageUsersCli(app: WatneyApp) {
         {
           name: 'View Details',
           value: viewUserDetails
-        },
-        {
-          name: 'Delete User',
-          value: deleteUser
         }
       ],
       message: user.name,
@@ -68,21 +64,5 @@ export async function manageUsersCli(app: WatneyApp) {
 
   async function viewUserDetails(user: IRegisteredUser) {
     console.log(JSON.stringify(user, null, 2));
-  }
-
-  async function deleteUser(user: IRegisteredUser) {
-    const answers = await inquirer.prompt<{ confirmed: boolean }>({
-      message: `Are you sure you want to delete user "${user.name}" (${
-        user.username
-      })?`,
-      name: 'confirmed',
-      type: 'confirm'
-    });
-
-    if (!answers.confirmed) {
-      return;
-    }
-
-    await awaitableWrap(hue.api.deleteUser(user.username));
   }
 }
