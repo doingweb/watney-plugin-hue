@@ -173,6 +173,10 @@ TODO
 ----
 
 - [ ] Fix [security issues](https://github.com/doingweb/watney-plugin-hue/network/alerts)
+- [ ] Add more helpful errors:
+  - [ ] Trying to run without having set up first.
+  - [ ] Incorrect host.
+  - [ ] Invalid credentials.
 - [ ] Refine the API around brightness and transition time.
 - [ ] Add `getLightGroups()` to the API.
 - [ ] Import CliFunction from watney-app?
